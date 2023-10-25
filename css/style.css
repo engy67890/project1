@@ -1,0 +1,1326 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: relative;
+   text-transform: capitalize;
+}
+.header{
+    width: 100% ;
+    height: 50px;
+    background-color: rgba(10, 10, 10, 0.5);
+    overflow: auto;
+    position: fixed ;
+    top: 0 ; 
+    left: 0;
+    z-index: 1000;
+}
+
+
+.img1 {
+    width: 250px;
+    height: 50px ;
+    margin-left: 100px;
+  float: left;
+  opacity: 0.3;
+}
+
+.list {
+    list-style-type: none ;
+    float: right;
+    margin-right: 100px;
+    position: relative;
+
+}
+
+
+ .list   li {
+      display: inline-block ;
+      margin-left: 25px;
+      color: rgb(174, 77, 83);
+      font-size: 20px;
+      padding-top: 20px;
+      text-align: center;
+
+}
+
+.list  li  a {
+    text-decoration: none;
+ color: aliceblue;
+    text-align: center;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.active:hover  {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+   text-decoration-thickness: 5px;
+   transition: 0.5s;
+
+  }
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+
+
+.team-parent{
+    background-color: rgba(0,0 ,0 , 0.3);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.team-overlay{
+    position: relative;
+    background-color: rgba(0,0 ,0 , 0.3);
+    height: 100%;
+    width: 100%;
+   
+}
+.team-content{
+   position: absolute;
+    color: aliceblue;
+    text-align: center;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 50px;
+text-transform: capitalize;    
+width: 100%;
+}
+.team-content-p{
+    font-size: 20px;
+    color: antiquewhite;
+}
+.team-link{ 
+    padding: 15px;
+    border-radius: 10%;
+    text-transform: capitalize;    
+    width: 30px;
+   font-size: 20px;
+   border: none;
+   text-decoration: none;
+   color: rgb(5, 6, 7);
+   background-color: aliceblue;
+}
+
+p{
+    margin: 10px 10px;
+}
+.btn {
+    min-width: 150px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(1, 4, 6);
+    border-radius: 5px ;
+    border: 0;
+    cursor: pointer;
+
+
+}
+
+
+
+
+.btn2{
+    color: rgb(15, 15, 20);
+    background-color: blueviolet;
+    cursor: pointer;
+}
+/* /////////////////////////////////////////////////////////////// */
+.t2 ::after{
+    position: absolute;
+    content: "";
+    width:0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.2);
+    visibility: hidden;
+    transition: 1s;
+   
+}
+
+.t2:hover ::after{
+     width: 100%;
+     height: 100%;
+     opacity: 0.2;
+     visibility: visible;
+    
+}
+.t2:hover .btn1{
+    color: rgb(236, 86, 247);
+    transition: 1s;
+
+    } 
+    
+    .t2:hover .icon{
+        color: rgb(236, 86, 247);
+        transition: 1s;
+
+    }
+    
+    .t2:hover .h1{
+        color: rgb(171, 40, 175);
+        transition: 1s;
+
+    }
+    .t2:hover .p1{
+        color:black;
+        transition: 1s;
+
+    }
+    
+/* ////////////////////////////////////////////////////////////////// */
+
+.btn:hover{
+    background-color:rgb(255, 255, 255, 0.5)
+
+}
+.btn2:hover{
+    background-color: rgb(138, 43, 226, 0.5);
+}
+.team-parent2{
+    position: relative;
+}
+
+.team-overlay2{
+    background-color: aliceblue;
+    height: 100vh;
+    position: relative;
+   
+    
+}
+
+.team-tittle2{ 
+    font-size:60px;
+    color: black;
+    text-align: center;
+    margin-bottom: 9px;
+    padding-top: 120px;
+    text-transform: capitalize;
+}
+.line{
+    background-color: blueviolet;
+    width: 100px;
+    height: 4px;
+    margin: auto;
+    display: block;
+
+}
+.tittle-content{
+    border: 2px solid grey;
+    width: 30%;
+    font-size: 25px;
+margin-top: 80px;
+margin-left: 30px;
+padding: 40px 0px;
+text-align: center;
+float: left;
+position: absolute;
+}
+.btn1{
+    border: none;
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: transparent ;
+    font-size: medium; 
+    padding-top: 10px;
+    cursor: pointer;
+}
+.p1{
+    font-style: italic;
+    color: rgb(114, 112, 116);
+    font-size: 20px;
+}
+.t2{
+  height: 250px;
+  padding-bottom: 10px;
+  position: relative;
+
+}
+.icon{
+    color: blueviolet;
+}
+.team-tittle3{
+
+ font-size:60px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 90px;
+    text-transform: capitalize;
+}
+
+/* ////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////// */
+.middle-gap{
+  background-color: rgba(0,0 ,0 , 0.3);
+    width: 100%;
+   height: 5vh;
+  
+}
+
+ .team-overlay3{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.piccc{
+    position: relative;
+}
+
+.pic1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: inline-block;
+    margin-left:90px;
+    width: 300px;
+    height: 210px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.pic2{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    display: inline-block;
+    margin-left: 590px;
+    width: 300px;
+    height: 210px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.pic3{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: inline-block;
+    margin-left: 1090px;
+    width: 300px;
+    height: 210px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.pic4{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    display: inline-block;
+    margin-left: 90px;
+    width: 300px;
+    height: 210px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.pic5{
+    position: absolute;
+    top: 250px;
+    left: 20px;  
+    display: inline-block;
+    margin-left: 590px;
+    width: 300px;
+    height: 210px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.pic6{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    display: inline-block;
+    margin-left: 1090px;
+    width: 300px;
+    height: 210px;
+    margin-top: 20px;
+    font-size: 25px;
+} 
+.pic7{
+    position: absolute;
+    width: 300px;
+    padding-left: 30px;
+    height: 210px;
+    padding-top: 20px;
+    font-size: 25px;
+    
+}
+
+.iconnns{
+    position: absolute;
+    top:0;
+    left: 0;
+ bottom: 0;
+ right: 0;
+ width: 100%;
+ height: 100%;
+color: aliceblue;
+padding: 60px 70px;
+text-align: center;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+visibility: hidden;
+opacity: 0;
+background-color: rgb(0, 0, 0, 0.8);
+transition: 1s;
+}
+
+.ss1{
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+.dec{
+    color: aliceblue;
+  
+}
+.editt{
+
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.searchh{
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    color: aliceblue;
+   padding-left: 5px;
+   padding-top: 5px;
+   margin-top: 10px;
+}
+
+.piccc:hover .iconnns{
+    visibility: visible;
+    opacity: 1;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////// */
+.tittle-content4 ::after{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    border-radius: 30%;
+
+}
+.tittle-content4:hover ::after{ 
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    visibility: visible;
+   
+  }
+
+
+ .tittle-content4:hover .btn1{
+color: rgb(236, 86, 247);
+transition: 1s;
+
+} 
+
+.tittle-content4:hover .icon{
+    color: rgb(236, 86, 247);
+    transition: 1s;
+
+}
+
+.tittle-content4:hover .h1{
+    color: rgb(171, 40, 175);
+    transition: 1s;
+
+}
+.tittle-content4:hover .p1{
+    color:black;
+    transition: 1s;
+
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+.middle-gap2{
+    width: 100%;
+    height:5vh;
+    background-color: rgba(0, 0, 0,0.3);
+    
+}
+.team-parent4{
+    background-color: aliceblue;
+    height: 120vh;
+    
+}
+.team-tittle4{
+    font-size:60px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    text-transform: capitalize;
+   background-color: transparent;
+   
+}
+.tittle-content4{
+
+    border: 2px solid grey;
+    width: 30%;
+    font-size: 25px;
+margin-top: 80px;
+margin-left: 40px;
+padding: 40px 0px;
+text-align: center;
+float: left;
+border-radius: 30%;
+position: relative;
+
+}
+.l2{
+    margin-bottom: 10px;
+}
+.icon2{
+color: blueviolet;
+}
+
+.middel-gap3{
+    width: 100%;
+    height:5vh;
+    background-color: rgba(0, 0, 0,0.3);
+}
+
+.team-parent5{
+    background-color: aliceblue;
+    height: 100vh;
+    position: relative;
+    
+   
+    
+}
+.team-tittle5{
+    font-size:40px;
+    color: blueviolet;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-top:80px;
+    text-transform: capitalize;
+   background-color: transparent;
+   position: relative;
+   text-decoration: underline;
+   position: absolute;
+  
+   
+}
+.p2{
+    font-size: 30px;
+    height: 20%;
+    width: 70%;
+   margin-left: 30px;
+   position: absolute;
+   margin-top: 150px;
+   
+   
+}
+.img3{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 250px;
+    width: 40%;
+   
+
+}
+/* ///////////////////////////////////////// */
+.list2 li:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+
+
+/* ////////////////////////////////////////// */
+.list2 li{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+ margin-left: 30px;
+   margin-top: 630px ;
+   text-align: center;
+margin-right: 150px;
+float: right;
+
+
+
+}
+.list3{
+    font-size: 25px;
+    list-style-type: none;
+    height: 50%;
+    width: 50%;
+   font-style: italic;
+   margin-top: 350px;
+   color: rgb(97, 96, 96);
+   position: absolute;
+   margin-left: 50px;
+
+}
+/* /////////////////////////////////////////// */
+.p3 ::after{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0,0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    
+   
+
+}
+
+.p3:hover ::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    visibility: visible;
+    cursor: pointer;
+  
+}
+
+.p3:hover .tt6  {
+    color: rgb(232, 68, 238);
+    transition: 1s;
+
+}
+
+.p3:hover .list4{
+    color: rgb(252, 73, 255);
+    font-size:25px;
+    transition: 1s;
+
+}
+.p3:hover .btn3{
+    color: rgb(252, 73, 255);
+    font-size:25px;
+    transition: 1s;
+
+}
+
+
+
+
+/* //////////////////////////////////////////// */
+.middle-gap4{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0,0 ,0 , 0.3);
+
+}
+
+.p3{
+  position: absolute;
+    border:10px rgb(160, 89, 227) double;
+    height:700px;
+    width:60rem;
+    margin-bottom: 200px;
+    margin-left: 300px;
+padding: 10px 10px 10px 10px;
+}
+.line2{
+    width: 50px;
+    background-color: aliceblue;
+}
+
+.vv{
+    color: blueviolet;
+    text-align: center;
+    padding-top: 30px;
+}
+.v1{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.icon2{
+    font-size: 60px;
+    color: blueviolet;
+    float: left;
+    margin-left:450px;
+}
+.line4{
+    margin-top: 20px;
+}
+.parent2{ 
+    background-color: aliceblue;
+    height: 100vh;
+    padding-top: 20px;
+}
+.div1{
+    height: 400px;
+    width:100%;
+   
+    margin-top: 30px;
+    
+   }
+.t1{
+    font-size:30px ;
+width: 100%;
+text-align: center;
+border:5px rgb(164, 105, 220) double;
+
+}
+.t3{
+    font-size: 25px;
+    text-align: center;
+ padding-top: 10px;
+    height: 20px;
+}
+
+.li2 .list4{
+    display: inline-block;
+ text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+   margin-left: 150px;
+   margin-top: 50px;
+   
+   
+   
+}
+
+
+.i1{
+    font-size: 19px;
+ 
+   height: 20px;
+   margin-left:160px;
+   margin-top: 100px;
+   width: 300px;
+}
+.div2{
+    border:5px rgb(164, 105, 220) double;
+    height: 400px;
+   margin-top: 10px;
+ 
+    
+
+}
+.div3{
+    border:5px rgb(198, 162, 231) double;
+    height: 250px;
+    width:870px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.btn3{
+    text-decoration: underline;
+    background-color: transparent;
+    color: black;
+   height: 20px;
+    text-align: center;
+    font-size:19px;
+    cursor: pointer;
+}
+
+.parent4{
+    background-color: rgba(0, 0, 0,0.5);
+    height: 30vh;
+   width: 100%;
+font-size: 20px;
+ }
+ .overlay4{
+  display: inline-block;
+  font-size: 30px;
+ margin-left: 150px;
+ color: aliceblue;
+ margin-top: 50px;
+ text-align: center;
+
+ }
+ 
+ .y2{
+    font-size: 25px;
+   font-style: italic;
+  
+}
+
+.overlay7{  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+
+
+.container{
+    width: 80%;
+overflow: auto;
+    margin: auto;
+}
+
+.top-player{
+position: absolute;
+    color: aliceblue;
+    z-index: 1;
+   padding-left:200px; 
+   padding-top: 100px;
+}
+.pi{
+    position: absolute;
+    color: aliceblue;
+    z-index: 1;
+   padding-left:130px; 
+   padding-top: 150px;
+   font-style: italic;
+}
+.pp{
+    color: rgb(152, 81, 218);
+}
+.cont{
+    width: 550px;
+    height: 300px;
+  position: absolute;
+}
+.tp{
+    position: absolute;
+    color: aliceblue;
+    z-index: 1;
+   padding-left:810px; 
+   padding-top: 95px;
+   width: 1200px;
+  
+   
+ 
+}
+
+
+.img6{
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 700px ;
+    position: absolute;
+    top: 82px;
+    left: 30px;
+   
+}
+
+
+
+
+.img5{
+    position: absolute;
+    top: 82px;
+    left: 65px;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin-left:60px ;
+}
+
+.overlay6{
+    position: relative;
+    background-image: url(../images/1600w-JLofAI27pCg.jpg );
+    height:300px ;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+
+.parent5{
+    background-color: aliceblue;
+    height: 100vh;
+
+    
+}
+.team-tittle6{
+    font-size:60px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    text-transform: capitalize;
+   background-color: transparent;
+   
+}
+.p5{
+    text-align: center;
+    width: 95vw;
+    height: 20px;
+    margin-top: 40px;
+}
+
+.p6{
+    text-align: center;
+    width: 95vw;
+    height: 40px;
+    margin-bottom: 100px;
+}
+.line5{
+    margin-top: 20px;
+}
+.containeer{
+    width: 90%;
+    margin: auto;
+}
+.team-contentt{
+    overflow: auto;
+    position: relative;
+}
+.team-itemm{
+    width: 30%;
+    height: 400px;
+  display: inline-block;
+    background-color: rgb(164, 143, 178);
+    margin-left: 30px;
+    margin-top: 200px;
+    text-align: center;
+   color: black;
+   padding-top: 20px;
+   position: relative;
+
+}
+
+.team-imgg{
+   width: 90.5%;
+   margin: auto;
+   position: relative;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.icon6{
+    position: absolute;
+   top: 0;
+   left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.3);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.team-itemm:hover .icon6{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.team-itemm:hover .h4 {
+    color: rgb(214, 139, 211);
+    transition: 1s;
+}
+.team-itemm:hover .h5 {
+    color: aliceblue;
+    transition: 1s;
+}
+
+.team-itemm ::after{
+    position:absolute ;
+    content: "";
+  width: 0;
+    top: 0;
+  left: 0;
+background-color: rgb(0, 0, 0, 0.2);
+visibility: hidden;
+opacity: 0;
+transition: 1s;
+}
+.team-itemm:hover ::after{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity:0.2;
+
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+.icon6 .aaaa{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(164, 143, 178);
+    color: aliceblue;
+    font-size: 20px ;
+    margin-left: auto;
+}
+
+.icon6 .aaaa .icon7{
+    line-height: 40px;
+ 
+}
+.h4{
+    text-transform: capitalize;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(56, 54, 54);
+}
+.h5{
+ font-size: 20px;
+font-style: normal;
+color: black;
+}
+
+
+
+
+
+
+
+
+
+.bacc{
+   
+
+      height: 40vh;
+      width: 100%;
+}
+
+ .pi1{
+    position: absolute;
+    color: aliceblue;
+    z-index: 1;
+ font-style: italic;
+  
+   padding-left:740px; 
+   padding-top: 150px;
+   width: 1200px;
+   height: 300px;
+
+} 
+.bacc2{ 
+    height: 110vh;
+    width: 100%;
+    background-color: aliceblue;
+display: inline-block;
+position: relative;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+.cc2 ::after{
+    position: absolute;
+    content: "";
+   width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(198, 91, 255, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: 2s;
+}
+.cc2:hover ::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: 2s;
+    visibility: visible;
+    cursor: pointer;
+}
+.cc3 ::after{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(198, 91, 255, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: 2s;
+}
+.cc3:hover ::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    visibility: visible;
+    cursor: pointer;
+}
+.cc4 ::after{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(198, 91, 255, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: 2s;
+}
+.cc4:hover ::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    visibility: visible;
+    cursor: pointer;
+}
+.cc2:hover .icon{
+    color: rgb(236, 86, 247);
+    transition: 2s;
+
+}
+.cc2:hover .aa{
+    color: rgb(236, 86, 247);
+    transition: 2s;
+}
+.cc3:hover .icon{
+    color: rgb(236, 86, 247);
+    transition: 2s;
+
+}
+.cc3:hover .aa{
+    color: rgb(236, 86, 247);
+    transition: 2s;
+}
+.cc4:hover .icon{
+    color: rgb(236, 86, 247);
+    transition: 2s;
+
+}
+.cc4:hover .aa{
+    color: rgb(236, 86, 247);
+    transition: 2s;
+}
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+
+.cc2{
+    width: 380px; 
+    height: 630px; 
+    background-color: rgb(242, 244, 245);
+   text-align: center;
+  margin-left: 100px;
+   margin-top: 150px;
+   display: inline-block;
+   position: absolute;
+   top: 30px;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   text-align: center;
+
+}
+
+.cc3{
+    width: 380px; 
+    height: 630px; 
+   background-color: rgb(242, 244, 245);
+   text-align: center;
+   margin-left: 150px;
+   display: inline-block;
+   position: absolute;
+   top:180px;
+   bottom: 0;
+   right: 0;
+   left:400px;
+   text-align: center;
+
+}
+
+.cc4{
+    width: 350px; 
+    height: 630px; 
+   background-color: rgb(242, 244, 245);
+   text-align: center;
+   margin-left: 316px;
+   display: inline-block;
+   position: absolute;
+   top:180px;
+   bottom: 0;
+   right: 0;
+   left:700px;
+   text-align: center;
+}
+.aa{
+    color: blueviolet;
+   padding-left: 95px;
+}
+
+.recent-img{
+    width: 90%;
+    height: 400px;
+    margin-left: 10px;
+    padding-top: 10px;
+
+    
+}
+.li5{
+     display: inline-block;
+    font-size: 15px;
+    width: 200px;
+    height: 10px;
+    list-style-type: none;
+     margin-top: 30px;
+     font-style: italic;
+     margin-right: 300px;
+     text-align: center;
+    
+}
+.li6{
+    padding-left: 20px;
+    width: 300px;
+}
+
+.t8{
+    font-size: 30px;
+    margin-bottom: 50px;
+   
+}
+.tit{
+    font-style: italic;
+    font-size:25px;
+    text-align: center;
+    padding-left: 10px;
+
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.par3{
+    font-size: 20px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.cc2{
+    float: left;
+}
+
+.footer{
+    background-color: rgba(82, 79, 79);
+    text-align: center;
+    height:40vh;
+    width: 100%;
+    position: relative;
+}
+
+.im3{
+    width: 200px;
+    height: 90px;
+    margin-top: 80px;
+}
+.ul1{
+
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 30px;
+      display: list-item;
+    padding-top:10px;
+    border-radius: 50%;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+.aaa:hover .icon4{
+  background-color: rgb(236, 86, 247);
+  color: black;
+    transition: 1s;
+    border-radius: 50%;
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+
+.icon4{
+padding: 10px;
+background-color: blueviolet;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+color: aliceblue;
+text-align: end;
+
+}
+.ppp3{
+    color: rgb(233, 230, 230);
+    padding-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
